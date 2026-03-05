@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
-main void (AssertionError)
-{OnKeyEventCallback}
-
+void main(List<String> args) {
+  
+}
