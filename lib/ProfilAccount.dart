@@ -69,7 +69,7 @@ class ProfilAccountPage extends StatelessWidget {
                       child: ElevatedButton(
                         onPressed: () => _showLogoutDialog(context),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFF8B0000),
+                          backgroundColor: const Color.fromARGB(255, 203, 0, 0),
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                         ),
                         child: const Text('Logout', style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold)),
@@ -103,11 +103,11 @@ class ProfilAccountPage extends StatelessWidget {
             children: [
               Text(
                 'K16',
-                style: TextStyle(color: Color(0xFFFFC107), fontSize: 12, fontWeight: FontWeight.bold),
+                style: TextStyle(color: Color(0xFFFFC107), fontSize: 20, fontWeight: FontWeight.bold),
               ),
               Text(
-                'Lounge App',
-                style: TextStyle(color: Color(0xFFFFC107), fontSize: 14, fontWeight: FontWeight.w600),
+                'Lounge Apps',
+                style: TextStyle(color: Color(0xFFFFC107), fontSize: 18, fontWeight: FontWeight.w600),
               ),
             ],
           ),
@@ -157,7 +157,6 @@ class ProfilAccountPage extends StatelessWidget {
         children: [
           _buildNavItem(icon: Icons.home_outlined, label: 'Home', active: false),
           _buildNavItem(icon: Icons.history, label: 'History', active: false),
-          _buildNavItem(icon: Icons.notifications_outlined, label: 'Notif', active: false),
           _buildNavItem(icon: Icons.person, label: 'Profil', active: true),
         ],
       ),
