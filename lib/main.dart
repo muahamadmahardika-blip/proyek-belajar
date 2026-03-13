@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login.dart';
+import 'ProfilAccount.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-       home: const AplikasiRentalPS(), // ← INI YANG DIGANTI!
+       home: const ProfilAccountPage(), // ← INI YANG DIGANTI!
       debugShowCheckedModeBanner: false,
     );
   }
