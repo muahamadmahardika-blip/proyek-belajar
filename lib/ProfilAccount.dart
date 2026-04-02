@@ -54,10 +54,10 @@ class ProfilAccountPage extends StatelessWidget {
                       height: 48,
                       child: ElevatedButton.icon(
                         onPressed: () {},
-                        icon: const Icon(Icons.edit, color: Colors.white),
+                        icon: const Icon(Icons.edit, color: Color.fromARGB(255, 247, 245, 245)),
                         label: const Text('Edit Profil', style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold)),
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFFFFC107),
+                          backgroundColor: const Color.fromARGB(255, 226, 173, 13),
                           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                         ),
                       ),
