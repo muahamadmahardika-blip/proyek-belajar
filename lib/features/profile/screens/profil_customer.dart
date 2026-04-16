@@ -194,7 +194,7 @@ class _CustomerProfilePageState extends State<CustomerProfilePage> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 23),
+                    const SizedBox(height: 20),
                     // Bagian Bawah (Customer Points)
                     Container(
                       padding: const EdgeInsets.all(15),
@@ -206,7 +206,7 @@ class _CustomerProfilePageState extends State<CustomerProfilePage> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "K-16 Customer Points",
+                            "K-16 Customer points",
                             style: AppStyles.bodyWhite.copyWith(fontSize: 13),
                           ),
                           Row(
